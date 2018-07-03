@@ -1,0 +1,106 @@
+body {
+    background-color: #f5f5f5;
+}
+
+div {
+
+}
+
+.wrapper { 
+    position: relative; 
+}
+
+.over-map { 
+    opacity: 0.8;
+    position: absolute;
+    z-index: 99; 
+    border-radius: 5%;
+    background-color: #f5f5f5;
+    
+    
+}
+
+.over-map-top-center{
+	 top: 10px; 
+    left: 20%; 
+    padding: 10px;
+}
+
+.over-map-top-left {
+    top: 60px; 
+    left: 10px; 
+    padding: 10px;
+}
+
+.over-map-bot-right {
+    top: 40%;
+    right: 10px;
+    padding: 10px;
+}
+
+.over-map-bot-rigth-hotel{
+	top: 2px;
+    left: 1px;
+    padding: 3px 10px;
+  border: PowderBlue 5px solid;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.over-map-top-right {
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+}
+
+.over-map-bot-left{
+	bottom: 1px;
+	left: 10px;
+	padding:10px;
+}
+
+#proximosPartidosCabezal, #ultimosResultadosCabezal, #posicionesCabezal {
+    border-bottom: solid 2px;
+    border-color: grey;
+
+}
+
+#proximosPartidos, #ultimosResultados, #posicionesEquipos {
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.no-margin-bottom p{
+    margin-bottom: 0px; 
+}
+
+.ex2:hover{
+	font-size: 100%;
+	    text-shadow: 1px 1px #000000;
+	
+}
+
+.margin-bottom-element {
+    border-bottom: solid 1px;
+    border-bottom-color: #dfe5eb;
+}
+
+#divPointOverMap {
+    width: 300px;
+}
+
+.padding-left-right-fixed {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.separation-bottom {
+    padding-bottom: 15px;
+}
+
+
+#divCommentOverMap {
+	left:310px;
+	height: 500px;
+    overflow: auto;
+}
